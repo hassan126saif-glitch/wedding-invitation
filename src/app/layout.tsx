@@ -22,11 +22,11 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: "Zoya & Ibrahim | Royal Wedding Invitation",
-  description: "Together with their families, Zoya & Ibrahim cordially invite you to celebrate their union at their Grand Baraat Ceremony. Join us for a magical evening.",
+  title: "Ayesha & Hassan | Royal Wedding Invitation",
+  description: "Together with their families, Ayesha & Hassan cordially invite you to celebrate their union at their Grand Baraat Ceremony. Join us for a magical evening.",
   openGraph: {
-    title: "Zoya & Ibrahim | Royal Wedding Invitation",
-    description: "Together with their families, Zoya & Ibrahim cordially invite you to celebrate their union at their Grand Baraat Ceremony.",
+    title: "Ayesha & Hassan | Royal Wedding Invitation",
+    description: "Together with their families, Ayesha & Hassan cordially invite you to celebrate their union at their Grand Baraat Ceremony.",
     type: "website",
     locale: "en_US",
   },
