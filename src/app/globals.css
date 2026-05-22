@@ -1,0 +1,63 @@
+@import "tailwindcss";
+
+@theme inline {
+  --font-cinzel: var(--font-cinzel);
+  --font-playfair: var(--font-playfair);
+  --font-sans: var(--font-inter);
+}
+
+:root {
+  --background: #0d0116; /* Deep royal purple */
+  --foreground: #fcf6e8; /* Champagne/gold */
+}
+
+body {
+  background-color: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-inter), sans-serif;
+  overflow: hidden; /* Hide main body overflow since snap container will handle it */
+}
+
+/* Custom scrollbar to look very premium */
+::-webkit-scrollbar {
+  width: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: rgba(13, 1, 22, 0.9);
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgba(212, 175, 55, 0.5); /* Semi-transparent Gold */
+  border-radius: 3px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(212, 175, 55, 0.8);
+}
+
+/* Hide scrollbar for clean cinematic view on touch devices if desired */
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+/* Custom glow utility classes */
+.gold-glow {
+  text-shadow: 0 0 10px rgba(212, 175, 55, 0.6), 0 0 20px rgba(212, 175, 55, 0.4);
+}
+
+.gold-glow-lg {
+  text-shadow: 0 0 15px rgba(212, 175, 55, 0.8), 0 0 30px rgba(212, 175, 55, 0.5), 0 0 45px rgba(212, 175, 55, 0.3);
+}
+
+.gold-shadow {
+  filter: drop-shadow(0 0 12px rgba(212, 175, 55, 0.5));
+}
+
+.purple-glow-card {
+  box-shadow: 0 0 25px rgba(168, 85, 247, 0.15), inset 0 0 15px rgba(212, 175, 55, 0.1);
+}
